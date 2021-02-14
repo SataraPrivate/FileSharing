@@ -1,0 +1,25 @@
+System:    Kernel: 5.4.0-65-generic x86_64 bits: 64 Desktop: KDE Plasma 5.20.5 Distro: KDE neon 20.04 5.20 
+Machine:   Type: Laptop System: ASUSTeK product: VivoBook_ASUSLaptop X509DA_D509DA v: 1.0 serial: <filter> 
+           Mobo: ASUSTeK model: X509DA v: 1.0 serial: <filter> UEFI: American Megatrends v: X509DA.306 
+           date: 10/11/2019 
+Battery:   ID-1: BAT0 charge: 3.5 Wh condition: 27.7/32.0 Wh (87%) 
+CPU:       Topology: Quad Core model: AMD Ryzen 7 3700U with Radeon Vega Mobile Gfx bits: 64 type: MT MCP 
+           L2 cache: 2048 KiB 
+           Speed: 1222 MHz min/max: 1400/2300 MHz Core speeds (MHz): 1: 1222 2: 1223 3: 1314 4: 1272 5: 1222 
+           6: 1222 7: 1395 8: 1300 
+Graphics:  Device-1: Advanced Micro Devices [AMD/ATI] Picasso driver: N/A 
+           Display: x11 server: X.Org 1.20.9 driver: fbdev FAILED: ati unloaded: amdgpu,intel,modesetting,vesa 
+           resolution: 1920x1080~77Hz 
+           OpenGL: renderer: llvmpipe (LLVM 11.0.0 256 bits) v: 4.5 Mesa 20.2.6 
+Audio:     Device-1: Advanced Micro Devices [AMD/ATI] Raven/Raven2/Fenghuang HDMI/DP Audio driver: snd_hda_intel 
+           Device-2: Advanced Micro Devices [AMD] Raven/Raven2/FireFlight/Renoir Audio Processor driver: N/A 
+           Device-3: Advanced Micro Devices [AMD] Family 17h HD Audio driver: snd_hda_intel 
+           Sound Server: ALSA v: k5.4.0-65-generic 
+Network:   Device-1: Realtek RTL8821CE 802.11ac PCIe Wireless Network Adapter driver: rtl8821ce 
+           IF: wlp1s0 state: up mac: <filter> 
+Drives:    Local Storage: total: 476.94 GiB used: 9.75 GiB (2.0%) 
+           ID-1: /dev/nvme0n1 vendor: Samsung model: MZVLQ512HALU-00000 size: 476.94 GiB 
+Partition: ID-1: / size: 392.72 GiB used: 9.71 GiB (2.5%) fs: ext4 dev: /dev/nvme0n1p4 
+Sensors:   System Temperatures: cpu: 46.2 C mobo: N/A 
+           Fan Speeds (RPM): cpu: 2200 
+Info:      Processes: 211 Uptime: 44m Memory: 5.75 GiB used: 1.35 GiB (23.4%) Shell: bash inxi: 3.0.38 

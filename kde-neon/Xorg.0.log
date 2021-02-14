@@ -1,0 +1,410 @@
+[     5.127] (--) Log file renamed from "/var/log/Xorg.pid-755.log" to "/var/log/Xorg.0.log"
+[     5.128] 
+X.Org X Server 1.20.9
+X Protocol Version 11, Revision 0
+[     5.128] Build Operating System: Linux 4.15.0-130-generic x86_64 Ubuntu
+[     5.128] Current Operating System: Linux satara-notebook 5.4.0-65-generic #73-Ubuntu SMP Mon Jan 18 17:25:17 UTC 2021 x86_64
+[     5.128] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.4.0-65-generic root=UUID=de572620-af62-4bc4-aba2-282c5f5ee946 ro quiet splash iommu=soft nomodeset vt.handoff=7
+[     5.128] Build Date: 17 January 2021  09:13:31AM
+[     5.128] xorg-server 2:1.20.9-2ubuntu1.2~20.04.1 (For technical support please see http://www.ubuntu.com/support) 
+[     5.128] Current version of pixman: 0.38.4
+[     5.128] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[     5.128] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[     5.128] (==) Log file: "/var/log/Xorg.0.log", Time: Sun Feb 14 21:40:13 2021
+[     5.130] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[     5.130] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[     5.132] (==) No Layout section.  Using the first Screen section.
+[     5.132] (**) |-->Screen "AMD" (0)
+[     5.132] (**) |   |-->Monitor "<default monitor>"
+[     5.133] (==) No device specified for screen "AMD".
+	Using the first device section listed.
+[     5.133] (**) |   |-->Device "card0"
+[     5.133] (**) |   |-->GPUDevice "AMD"
+[     5.133] (==) No monitor specified for screen "AMD".
+	Using a default monitor configuration.
+[     5.133] (==) Automatically adding devices
+[     5.133] (==) Automatically enabling devices
+[     5.133] (==) Automatically adding GPU devices
+[     5.133] (==) Automatically binding GPU devices
+[     5.133] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[     5.136] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[     5.137] 	Entry deleted from font path.
+[     5.137] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[     5.137] 	Entry deleted from font path.
+[     5.137] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[     5.137] 	Entry deleted from font path.
+[     5.137] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[     5.137] 	Entry deleted from font path.
+[     5.137] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[     5.137] 	Entry deleted from font path.
+[     5.137] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[     5.137] (==) ModulePath set to "/usr/lib/xorg/modules"
+[     5.137] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[     5.137] (II) Loader magic: 0x563adf08e020
+[     5.137] (II) Module ABI versions:
+[     5.137] 	X.Org ANSI C Emulation: 0.4
+[     5.137] 	X.Org Video Driver: 24.1
+[     5.137] 	X.Org XInput driver : 24.1
+[     5.137] 	X.Org Server Extension : 10.0
+[     5.138] (++) using VT number 1
+
+[     5.138] (II) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[     5.144] (--) PCI:*(3@0:0:0) 1002:15d8:1043:14bf rev 193, Mem @ 0xe0000000/268435456, 0xf0000000/2097152, 0xfe700000/524288, I/O @ 0x0000e000/256
+[     5.144] (II) LoadModule: "glx"
+[     5.145] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[     5.154] (II) Module glx: vendor="X.Org Foundation"
+[     5.154] 	compiled for 1.20.9, module version = 1.0.0
+[     5.154] 	ABI class: X.Org Server Extension, version 10.0
+[     5.154] (II) LoadModule: "intel"
+[     5.154] (II) Loading /usr/lib/xorg/modules/drivers/intel_drv.so
+[     5.157] (II) Module intel: vendor="X.Org Foundation"
+[     5.157] 	compiled for 1.20.8, module version = 2.99.917
+[     5.157] 	Module class: X.Org Video Driver
+[     5.157] 	ABI class: X.Org Video Driver, version 24.1
+[     5.157] (II) LoadModule: "amdgpu"
+[     5.157] (II) Loading /usr/lib/xorg/modules/drivers/amdgpu_drv.so
+[     5.161] (II) Module amdgpu: vendor="X.Org Foundation"
+[     5.161] 	compiled for 1.20.5, module version = 19.1.0
+[     5.161] 	Module class: X.Org Video Driver
+[     5.161] 	ABI class: X.Org Video Driver, version 24.0
+[     5.161] (II) intel: Driver for Intel(R) Integrated Graphics Chipsets:
+	i810, i810-dc100, i810e, i815, i830M, 845G, 854, 852GM/855GM, 865G,
+	915G, E7221 (i915), 915GM, 945G, 945GM, 945GME, Pineview GM,
+	Pineview G, 965G, G35, 965Q, 946GZ, 965GM, 965GME/GLE, G33, Q35, Q33,
+	GM45, 4 Series, G45/G43, Q45/Q43, G41, B43
+[     5.161] (II) intel: Driver for Intel(R) HD Graphics
+[     5.161] (II) intel: Driver for Intel(R) Iris(TM) Graphics
+[     5.161] (II) intel: Driver for Intel(R) Iris(TM) Pro Graphics
+[     5.161] (II) AMDGPU: Driver for AMD Radeon:
+	All GPUs supported by the amdgpu kernel driver
+[     5.162] (II) AMDGPU(0): [KMS] drm report modesetting isn't supported.
+[     5.162] (EE) Screen 0 deleted because of no matching config section.
+[     5.162] (II) UnloadModule: "amdgpu"
+[     5.162] (EE) Device(s) detected, but none match those in the config file.
+[     5.162] (==) Matched ati as autoconfigured driver 0
+[     5.162] (==) Matched modesetting as autoconfigured driver 1
+[     5.162] (==) Matched fbdev as autoconfigured driver 2
+[     5.162] (==) Matched vesa as autoconfigured driver 3
+[     5.162] (==) Assigned the driver to the xf86ConfigLayout
+[     5.162] (II) LoadModule: "ati"
+[     5.162] (II) Loading /usr/lib/xorg/modules/drivers/ati_drv.so
+[     5.162] (II) Module ati: vendor="X.Org Foundation"
+[     5.162] 	compiled for 1.20.5, module version = 19.1.0
+[     5.162] 	Module class: X.Org Video Driver
+[     5.162] 	ABI class: X.Org Video Driver, version 24.0
+[     5.162] (II) LoadModule: "amdgpu"
+[     5.162] (II) Loading /usr/lib/xorg/modules/drivers/amdgpu_drv.so
+[     5.162] (II) Module amdgpu: vendor="X.Org Foundation"
+[     5.163] 	compiled for 1.20.5, module version = 19.1.0
+[     5.163] 	Module class: X.Org Video Driver
+[     5.163] 	ABI class: X.Org Video Driver, version 24.0
+[     5.163] (II) LoadModule: "modesetting"
+[     5.163] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[     5.163] (II) Module modesetting: vendor="X.Org Foundation"
+[     5.163] 	compiled for 1.20.9, module version = 1.20.9
+[     5.163] 	Module class: X.Org Video Driver
+[     5.163] 	ABI class: X.Org Video Driver, version 24.1
+[     5.163] (II) LoadModule: "fbdev"
+[     5.164] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[     5.164] (II) Module fbdev: vendor="X.Org Foundation"
+[     5.164] 	compiled for 1.20.1, module version = 0.5.0
+[     5.164] 	Module class: X.Org Video Driver
+[     5.164] 	ABI class: X.Org Video Driver, version 24.0
+[     5.164] (II) LoadModule: "vesa"
+[     5.164] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[     5.165] (II) Module vesa: vendor="X.Org Foundation"
+[     5.165] 	compiled for 1.20.4, module version = 2.4.0
+[     5.165] 	Module class: X.Org Video Driver
+[     5.165] 	ABI class: X.Org Video Driver, version 24.0
+[     5.165] (II) intel: Driver for Intel(R) Integrated Graphics Chipsets:
+	i810, i810-dc100, i810e, i815, i830M, 845G, 854, 852GM/855GM, 865G,
+	915G, E7221 (i915), 915GM, 945G, 945GM, 945GME, Pineview GM,
+	Pineview G, 965G, G35, 965Q, 946GZ, 965GM, 965GME/GLE, G33, Q35, Q33,
+	GM45, 4 Series, G45/G43, Q45/Q43, G41, B43
+[     5.165] (II) intel: Driver for Intel(R) HD Graphics
+[     5.165] (II) intel: Driver for Intel(R) Iris(TM) Graphics
+[     5.165] (II) intel: Driver for Intel(R) Iris(TM) Pro Graphics
+[     5.165] (II) AMDGPU: Driver for AMD Radeon:
+	All GPUs supported by the amdgpu kernel driver
+[     5.165] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[     5.165] (II) FBDEV: driver for framebuffer: fbdev
+[     5.165] (II) VESA: driver for VESA chipsets: vesa
+[     5.165] (WW) xf86OpenConsole: setpgid failed: Operation not permitted
+[     5.165] (WW) xf86OpenConsole: setsid failed: Operation not permitted
+[     5.165] (II) AMDGPU(0): [KMS] drm report modesetting isn't supported.
+[     5.165] (II) AMDGPU(1): [KMS] drm report modesetting isn't supported.
+[     5.166] (II) AMDGPU(2): [KMS] drm report modesetting isn't supported.
+[     5.166] (II) AMDGPU(3): [KMS] drm report modesetting isn't supported.
+[     5.166] (WW) Falling back to old probe method for modesetting
+[     5.166] (EE) open /dev/dri/card0: No such file or directory
+[     5.166] (WW) Falling back to old probe method for fbdev
+[     5.166] (II) Loading sub module "fbdevhw"
+[     5.166] (II) LoadModule: "fbdevhw"
+[     5.166] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[     5.167] (II) Module fbdevhw: vendor="X.Org Foundation"
+[     5.167] 	compiled for 1.20.9, module version = 0.0.2
+[     5.167] 	ABI class: X.Org Video Driver, version 24.1
+[     5.167] (II) FBDEV(4): using default device
+[     5.167] (EE) Screen 0 deleted because of no matching config section.
+[     5.167] (II) UnloadModule: "amdgpu"
+[     5.167] (EE) Screen 0 deleted because of no matching config section.
+[     5.167] (II) UnloadModule: "amdgpu"
+[     5.167] (EE) Screen 0 deleted because of no matching config section.
+[     5.167] (II) UnloadModule: "amdgpu"
+[     5.167] (EE) Screen 0 deleted because of no matching config section.
+[     5.167] (II) UnloadModule: "amdgpu"
+[     5.167] (II) FBDEV(0): Creating default Display subsection in Screen section
+	"AMD" for depth/fbbpp 24/32
+[     5.167] (==) FBDEV(0): Depth 24, (==) framebuffer bpp 32
+[     5.167] (==) FBDEV(0): RGB weight 888
+[     5.167] (==) FBDEV(0): Default visual is TrueColor
+[     5.167] (==) FBDEV(0): Using gamma correction (1.0, 1.0, 1.0)
+[     5.167] (II) FBDEV(0): hardware: EFI VGA (video memory: 8100kB)
+[     5.167] (DB) xf86MergeOutputClassOptions unsupported bus type 0
+[     5.167] (II) FBDEV(0): checking modes against framebuffer device...
+[     5.167] (II) FBDEV(0): checking modes against monitor...
+[     5.167] (II) FBDEV(0): Virtual size is 1920x1080 (pitch 1920)
+[     5.167] (**) FBDEV(0):  Built-in mode "current": 207.4 MHz, 85.3 kHz, 77.2 Hz
+[     5.167] (II) FBDEV(0): Modeline "current"x0.0  207.38  1920 1952 2192 2432  1080 1084 1088 1104 -hsync -vsync -csync (85.3 kHz b)
+[     5.167] (==) FBDEV(0): DPI set to (96, 96)
+[     5.167] (II) Loading sub module "fb"
+[     5.167] (II) LoadModule: "fb"
+[     5.167] (II) Loading /usr/lib/xorg/modules/libfb.so
+[     5.168] (II) Module fb: vendor="X.Org Foundation"
+[     5.168] 	compiled for 1.20.9, module version = 1.0.0
+[     5.168] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[     5.168] (**) FBDEV(0): using shadow framebuffer
+[     5.168] (II) Loading sub module "shadow"
+[     5.168] (II) LoadModule: "shadow"
+[     5.168] (II) Loading /usr/lib/xorg/modules/libshadow.so
+[     5.169] (II) Module shadow: vendor="X.Org Foundation"
+[     5.169] 	compiled for 1.20.9, module version = 1.1.0
+[     5.169] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[     5.169] (II) UnloadModule: "intel"
+[     5.169] (II) Unloading intel
+[     5.169] (II) UnloadModule: "modesetting"
+[     5.169] (II) Unloading modesetting
+[     5.169] (II) UnloadModule: "vesa"
+[     5.169] (II) Unloading vesa
+[     5.169] (II) FBDEV(0): FBIOBLANK: Invalid argument (Screen blanking not supported by kernel - disabling)
+[     5.171] (==) FBDEV(0): Backing store enabled
+[     5.172] (==) FBDEV(0): DPMS enabled
+[     5.172] (II) Initializing extension Generic Event Extension
+[     5.172] (II) Initializing extension SHAPE
+[     5.172] (II) Initializing extension MIT-SHM
+[     5.173] (II) Initializing extension XInputExtension
+[     5.173] (II) Initializing extension XTEST
+[     5.173] (II) Initializing extension BIG-REQUESTS
+[     5.173] (II) Initializing extension SYNC
+[     5.174] (II) Initializing extension XKEYBOARD
+[     5.174] (II) Initializing extension XC-MISC
+[     5.174] (II) Initializing extension SECURITY
+[     5.174] (II) Initializing extension XFIXES
+[     5.174] (II) Initializing extension RENDER
+[     5.174] (II) Initializing extension RANDR
+[     5.174] (II) Initializing extension COMPOSITE
+[     5.175] (II) Initializing extension DAMAGE
+[     5.175] (II) Initializing extension MIT-SCREEN-SAVER
+[     5.175] (II) Initializing extension DOUBLE-BUFFER
+[     5.175] (II) Initializing extension RECORD
+[     5.175] (II) Initializing extension DPMS
+[     5.175] (II) Initializing extension Present
+[     5.176] (II) Initializing extension DRI3
+[     5.176] (II) Initializing extension X-Resource
+[     5.176] (II) Initializing extension XVideo
+[     5.176] (II) Initializing extension XVideo-MotionCompensation
+[     5.176] (II) Initializing extension SELinux
+[     5.176] (II) SELinux: Disabled on system
+[     5.176] (II) Initializing extension GLX
+[     5.177] (II) AIGLX: Screen 0 is not DRI2 capable
+[     5.276] (II) IGLX: Loaded and initialized swrast
+[     5.276] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[     5.276] (II) Initializing extension XFree86-VidModeExtension
+[     5.276] (II) Initializing extension XFree86-DGA
+[     5.276] (II) Initializing extension XFree86-DRI
+[     5.276] (II) Initializing extension DRI2
+[     5.330] (II) config/udev: Adding input device Power Button (/dev/input/event2)
+[     5.330] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[     5.330] (**) Power Button: Applying InputClass "system-keyboard"
+[     5.330] (II) LoadModule: "libinput"
+[     5.330] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[     5.334] (II) Module libinput: vendor="X.Org Foundation"
+[     5.334] 	compiled for 1.20.4, module version = 0.29.0
+[     5.334] 	Module class: X.Org XInput Driver
+[     5.334] 	ABI class: X.Org XInput driver, version 24.1
+[     5.334] (II) Using input driver 'libinput' for 'Power Button'
+[     5.334] (**) Power Button: always reports core events
+[     5.334] (**) Option "Device" "/dev/input/event2"
+[     5.334] (**) Option "_source" "server/udev"
+[     5.338] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[     5.338] (II) event2  - Power Button: device is a keyboard
+[     5.338] (II) event2  - Power Button: device removed
+[     5.369] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input2/event2"
+[     5.369] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[     5.369] (**) Option "xkb_model" "pc105"
+[     5.369] (**) Option "xkb_layout" "de"
+[     5.395] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[     5.395] (II) event2  - Power Button: device is a keyboard
+[     5.396] (II) config/udev: Adding input device Video Bus (/dev/input/event4)
+[     5.396] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[     5.396] (**) Video Bus: Applying InputClass "system-keyboard"
+[     5.396] (II) Using input driver 'libinput' for 'Video Bus'
+[     5.396] (**) Video Bus: always reports core events
+[     5.396] (**) Option "Device" "/dev/input/event4"
+[     5.396] (**) Option "_source" "server/udev"
+[     5.398] (II) event4  - Video Bus: is tagged by udev as: Keyboard
+[     5.398] (II) event4  - Video Bus: device is a keyboard
+[     5.398] (II) event4  - Video Bus: device removed
+[     5.413] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:13/LNXVIDEO:01/input/input4/event4"
+[     5.413] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[     5.413] (**) Option "xkb_model" "pc105"
+[     5.413] (**) Option "xkb_layout" "de"
+[     5.415] (II) event4  - Video Bus: is tagged by udev as: Keyboard
+[     5.415] (II) event4  - Video Bus: device is a keyboard
+[     5.416] (II) config/udev: Adding input device Lid Switch (/dev/input/event0)
+[     5.416] (II) No input driver specified, ignoring this device.
+[     5.416] (II) This device may have been added with another device file.
+[     5.417] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[     5.417] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[     5.417] (**) Power Button: Applying InputClass "system-keyboard"
+[     5.417] (II) Using input driver 'libinput' for 'Power Button'
+[     5.417] (**) Power Button: always reports core events
+[     5.417] (**) Option "Device" "/dev/input/event1"
+[     5.417] (**) Option "_source" "server/udev"
+[     5.418] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[     5.418] (II) event1  - Power Button: device is a keyboard
+[     5.418] (II) event1  - Power Button: device removed
+[     5.453] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1/event1"
+[     5.453] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 8)
+[     5.453] (**) Option "xkb_model" "pc105"
+[     5.453] (**) Option "xkb_layout" "de"
+[     5.455] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[     5.455] (II) event1  - Power Button: device is a keyboard
+[     5.456] (II) config/udev: Adding input device HD-Audio Generic HDMI/DP,pcm=3 (/dev/input/event9)
+[     5.456] (II) No input driver specified, ignoring this device.
+[     5.456] (II) This device may have been added with another device file.
+[     5.457] (II) config/udev: Adding input device USB2.0 VGA UVC WebCam: USB2.0 V (/dev/input/event8)
+[     5.457] (**) USB2.0 VGA UVC WebCam: USB2.0 V: Applying InputClass "libinput keyboard catchall"
+[     5.457] (**) USB2.0 VGA UVC WebCam: USB2.0 V: Applying InputClass "system-keyboard"
+[     5.457] (II) Using input driver 'libinput' for 'USB2.0 VGA UVC WebCam: USB2.0 V'
+[     5.457] (**) USB2.0 VGA UVC WebCam: USB2.0 V: always reports core events
+[     5.457] (**) Option "Device" "/dev/input/event8"
+[     5.457] (**) Option "_source" "server/udev"
+[     5.459] (II) event8  - USB2.0 VGA UVC WebCam: USB2.0 V: is tagged by udev as: Keyboard
+[     5.459] (II) event8  - USB2.0 VGA UVC WebCam: USB2.0 V: device is a keyboard
+[     5.459] (II) event8  - USB2.0 VGA UVC WebCam: USB2.0 V: device removed
+[     5.493] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2.2/3-2.2:1.0/input/input10/event8"
+[     5.493] (II) XINPUT: Adding extended input device "USB2.0 VGA UVC WebCam: USB2.0 V" (type: KEYBOARD, id 9)
+[     5.493] (**) Option "xkb_model" "pc105"
+[     5.493] (**) Option "xkb_layout" "de"
+[     5.497] (II) event8  - USB2.0 VGA UVC WebCam: USB2.0 V: is tagged by udev as: Keyboard
+[     5.497] (II) event8  - USB2.0 VGA UVC WebCam: USB2.0 V: device is a keyboard
+[     5.497] (II) config/udev: Adding input device HD-Audio Generic Headphone (/dev/input/event10)
+[     5.497] (II) No input driver specified, ignoring this device.
+[     5.497] (II) This device may have been added with another device file.
+[     5.498] (II) config/udev: Adding input device ELAN1200:00 04F3:309F Mouse (/dev/input/event6)
+[     5.498] (**) ELAN1200:00 04F3:309F Mouse: Applying InputClass "libinput pointer catchall"
+[     5.498] (II) Using input driver 'libinput' for 'ELAN1200:00 04F3:309F Mouse'
+[     5.498] (**) ELAN1200:00 04F3:309F Mouse: always reports core events
+[     5.498] (**) Option "Device" "/dev/input/event6"
+[     5.498] (**) Option "_source" "server/udev"
+[     5.500] (II) event6  - ELAN1200:00 04F3:309F Mouse: is tagged by udev as: Mouse Pointingstick
+[     5.500] (II) event6  - ELAN1200:00 04F3:309F Mouse: device is a pointer
+[     5.500] (II) event6  - ELAN1200:00 04F3:309F Mouse: device removed
+[     5.533] (**) Option "config_info" "udev:/sys/devices/platform/AMDI0010:01/i2c-0/i2c-ELAN1200:00/0018:04F3:309F.0001/input/input8/event6"
+[     5.533] (II) XINPUT: Adding extended input device "ELAN1200:00 04F3:309F Mouse" (type: MOUSE, id 10)
+[     5.533] (**) Option "AccelerationScheme" "none"
+[     5.533] (**) ELAN1200:00 04F3:309F Mouse: (accel) selected scheme none/0
+[     5.533] (**) ELAN1200:00 04F3:309F Mouse: (accel) acceleration factor: 2.000
+[     5.533] (**) ELAN1200:00 04F3:309F Mouse: (accel) acceleration threshold: 4
+[     5.535] (II) event6  - ELAN1200:00 04F3:309F Mouse: is tagged by udev as: Mouse Pointingstick
+[     5.536] (II) event6  - ELAN1200:00 04F3:309F Mouse: device is a pointer
+[     5.537] (II) config/udev: Adding input device ELAN1200:00 04F3:309F Mouse (/dev/input/mouse0)
+[     5.537] (II) No input driver specified, ignoring this device.
+[     5.537] (II) This device may have been added with another device file.
+[     5.537] (II) config/udev: Adding input device ELAN1200:00 04F3:309F Touchpad (/dev/input/event7)
+[     5.537] (**) ELAN1200:00 04F3:309F Touchpad: Applying InputClass "libinput touchpad catchall"
+[     5.537] (**) ELAN1200:00 04F3:309F Touchpad: Applying InputClass "touchpad"
+[     5.537] (II) LoadModule: "lininput"
+[     5.538] (WW) Warning, couldn't open module lininput
+[     5.538] (EE) Failed to load module "lininput" (module does not exist, 0)
+[     5.538] (EE) No input driver matching `lininput'
+[     5.538] (II) Falling back to input driver `libinput'
+[     5.538] (II) Using input driver 'libinput' for 'ELAN1200:00 04F3:309F Touchpad'
+[     5.538] (**) ELAN1200:00 04F3:309F Touchpad: always reports core events
+[     5.538] (**) Option "Device" "/dev/input/event7"
+[     5.538] (**) Option "_source" "server/udev"
+[     5.539] (II) event7  - ELAN1200:00 04F3:309F Touchpad: is tagged by udev as: Touchpad
+[     5.540] (II) event7  - ELAN1200:00 04F3:309F Touchpad: device is a touchpad
+[     5.540] (II) event7  - ELAN1200:00 04F3:309F Touchpad: device removed
+[     5.581] (**) Option "Tapping" "on"
+[     5.581] (**) Option "TappingButtonMap" "lrm"
+[     5.582] (**) Option "config_info" "udev:/sys/devices/platform/AMDI0010:01/i2c-0/i2c-ELAN1200:00/0018:04F3:309F.0001/input/input9/event7"
+[     5.582] (II) XINPUT: Adding extended input device "ELAN1200:00 04F3:309F Touchpad" (type: TOUCHPAD, id 11)
+[     5.583] (**) Option "AccelerationScheme" "none"
+[     5.583] (**) ELAN1200:00 04F3:309F Touchpad: (accel) selected scheme none/0
+[     5.583] (**) ELAN1200:00 04F3:309F Touchpad: (accel) acceleration factor: 2.000
+[     5.583] (**) ELAN1200:00 04F3:309F Touchpad: (accel) acceleration threshold: 4
+[     5.585] (II) event7  - ELAN1200:00 04F3:309F Touchpad: is tagged by udev as: Touchpad
+[     5.586] (II) event7  - ELAN1200:00 04F3:309F Touchpad: device is a touchpad
+[     5.587] (II) config/udev: Adding input device ELAN1200:00 04F3:309F Touchpad (/dev/input/mouse1)
+[     5.587] (**) ELAN1200:00 04F3:309F Touchpad: Applying InputClass "touchpad"
+[     5.587] (II) LoadModule: "lininput"
+[     5.587] (WW) Warning, couldn't open module lininput
+[     5.587] (EE) Failed to load module "lininput" (module does not exist, 0)
+[     5.587] (EE) No input driver matching `lininput'
+[     5.587] (II) Falling back to input driver `libinput'
+[     5.587] (II) Using input driver 'libinput' for 'ELAN1200:00 04F3:309F Touchpad'
+[     5.587] (**) ELAN1200:00 04F3:309F Touchpad: always reports core events
+[     5.587] (**) Option "Device" "/dev/input/mouse1"
+[     5.587] (**) Option "_source" "server/udev"
+[     5.621] (II) mouse1  - failed to create input device '/dev/input/mouse1'.
+[     5.621] (EE) libinput: ELAN1200:00 04F3:309F Touchpad: Failed to create a device for /dev/input/mouse1
+[     5.621] (EE) PreInit returned 2 for "ELAN1200:00 04F3:309F Touchpad"
+[     5.621] (II) UnloadModule: "libinput"
+[     5.622] (II) config/udev: Adding input device Asus WMI hotkeys (/dev/input/event5)
+[     5.622] (**) Asus WMI hotkeys: Applying InputClass "libinput keyboard catchall"
+[     5.622] (**) Asus WMI hotkeys: Applying InputClass "system-keyboard"
+[     5.622] (II) Using input driver 'libinput' for 'Asus WMI hotkeys'
+[     5.622] (**) Asus WMI hotkeys: always reports core events
+[     5.622] (**) Option "Device" "/dev/input/event5"
+[     5.622] (**) Option "_source" "server/udev"
+[     5.623] (II) event5  - Asus WMI hotkeys: is tagged by udev as: Keyboard
+[     5.623] (II) event5  - Asus WMI hotkeys: device is a keyboard
+[     5.624] (II) event5  - Asus WMI hotkeys: device removed
+[     5.637] (**) Option "config_info" "udev:/sys/devices/platform/asus-nb-wmi/input/input7/event5"
+[     5.637] (II) XINPUT: Adding extended input device "Asus WMI hotkeys" (type: KEYBOARD, id 12)
+[     5.637] (**) Option "xkb_model" "pc105"
+[     5.637] (**) Option "xkb_layout" "de"
+[     5.638] (II) event5  - Asus WMI hotkeys: is tagged by udev as: Keyboard
+[     5.638] (II) event5  - Asus WMI hotkeys: device is a keyboard
+[     5.639] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event3)
+[     5.639] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[     5.639] (**) AT Translated Set 2 keyboard: Applying InputClass "system-keyboard"
+[     5.639] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[     5.639] (**) AT Translated Set 2 keyboard: always reports core events
+[     5.639] (**) Option "Device" "/dev/input/event3"
+[     5.639] (**) Option "_source" "server/udev"
+[     5.641] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[     5.641] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[     5.641] (II) event3  - AT Translated Set 2 keyboard: device removed
+[     5.685] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input3/event3"
+[     5.685] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 13)
+[     5.685] (**) Option "xkb_model" "pc105"
+[     5.685] (**) Option "xkb_layout" "de"
+[     5.687] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[     5.687] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[     5.702] (EE) Failed to open authorization file "/var/run/sddm/{e7b0b3ca-bc60-4b5c-b99f-053353845265}": No such file or directory
+[   253.624] (EE) event7  - ELAN1200:00 04F3:309F Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.15.5/touchpad-jumping-cursors.html for details
+[  2525.136] (EE) event7  - ELAN1200:00 04F3:309F Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.15.5/touchpad-jumping-cursors.html for details
+[  2525.139] (EE) event7  - ELAN1200:00 04F3:309F Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.15.5/touchpad-jumping-cursors.html for details
